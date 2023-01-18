@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(0, 37, 102);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  background-color: hwb(180 73% 2%);
+  border-radius: 5%;
+  max-width: 700px;
+  height: 500px;
+  margin: 100px auto 0;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.avatar {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  align-items: center;
+  border-radius: 50%;
+  border: 3px dotted burlywood;
+  box-shadow: 0px 0px 47px 9px rgba(6, 6, 6, 1);
+}
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #F1F1F1;
+  border: 1px solid rgba(34, 34, 34, 0.287);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.next-arrow {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-60%);
+}
+.prev-arrow {
+  top: 50%;
+  left: 20px;
+  transform: translateY(-60%);
+}
