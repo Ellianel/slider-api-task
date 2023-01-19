@@ -1,4 +1,4 @@
 react slider with GH API
 
 
-lighthearted-kitten-65a01d.netlify.app
+www.lighthearted-kitten-65a01d.netlify.app
